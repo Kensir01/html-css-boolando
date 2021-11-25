@@ -1,0 +1,104 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenitore {
+    margin: auto;
+    width: 80%;
+}
+
+.prodotto {
+    height: 550px;
+    width: 400px;
+    position: relative;
+}
+
+.contenitore .riga .prodotto .modell-a {
+    height: 550px;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+}
+
+.contenitore .riga .prodotto .modell-b {
+    height: 550px;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+}
+
+.contenitore .riga .prodotto .modell-a:hover {
+    opacity: 0;
+}
+
+.contenitore .riga .prodotto .modell-b:hover {
+    opacity: 1;
+}
+
+.contenitore .riga .prodotto .cuore {
+    display: inline-block;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.contenitore .riga .prodotto .cont-tag {
+    position: absolute;
+    bottom: 15px; 
+}
+
+.contenitore .riga .prodotto .cont-tag .sconto {
+    display: inline-block;
+    background-color: #eb0037;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+
+}
+
+.contenitore .riga .prodotto .cont-tag .tag {
+    display: inline-block;
+    background-color: #00875a;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+
+}
+
+.contenitore .riga .descrizione {
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+}
+
+.descrizione .marca {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.descrizione .nome-prodotto {
+    font-size: 16px;
+}
+
+.descrizione .nuovo {
+    font-size: 13px;
+    color: red;
+}
+
+.descrizione .nuovo .vecchio {
+    color: black;
+    text-decoration: line-through;
+}
