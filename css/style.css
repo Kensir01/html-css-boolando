@@ -15,8 +15,7 @@
     height: 550px;
     width: 300px;
     position: relative;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin: auto;
 }
 
 .contenitore .riga .prodotto .modell-a {
