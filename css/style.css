@@ -7,24 +7,31 @@
     width: 80%;
 }
 
+.riga {
+    display: flex
+}
+
 .prodotto {
     height: 550px;
-    width: 400px;
+    width: 300px;
     position: relative;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .contenitore .riga .prodotto .modell-a {
-    height: 550px;
-    width: 400px;
+    height: 450px;
+    width: 300px;
     display: inline-block;
-    position: absolute;
+    position: relative;
 }
 
 .contenitore .riga .prodotto .modell-b {
-    height: 550px;
-    width: 400px;
+    height: 450px;
+    width: 300px;
     display: inline-block;
-    position: absolute;
+    position: relative;
+    top: -454px;
     opacity: 0;
 }
 
@@ -50,7 +57,7 @@
 
 .contenitore .riga .prodotto .cont-tag {
     position: absolute;
-    bottom: 15px; 
+    top: 400px; 
 }
 
 .contenitore .riga .prodotto .cont-tag .sconto {
@@ -77,28 +84,34 @@
 
 }
 
-.contenitore .riga .descrizione {
+.contenitore .riga .descrizione-a {
+    display: inline-block;
+    background-color: blue;
     margin-top: 10px;
-    width: 400px;
-    height: 50px;
-    position: relative;
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    bottom: 40px;
 }
 
-.descrizione .marca {
+.descrizione-a .marca {
     font-weight: 300;
     font-size: 14px;
 }
 
-.descrizione .nome-prodotto {
+.descrizione-a .nome-prodotto {
     font-size: 16px;
 }
 
-.descrizione .nuovo {
+.descrizione-a .nuovo {
     font-size: 13px;
     color: red;
 }
 
-.descrizione .nuovo .vecchio {
+.descrizione-a .nuovo .vecchio {
     color: black;
     text-decoration: line-through;
 }
+
+
+
